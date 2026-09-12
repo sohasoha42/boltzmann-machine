@@ -1,0 +1,20 @@
+[project]
+name = "boltzmann-machine"
+version = "0.1.0"
+description = "Boltzmann Machine with PyTorch"
+requires-python = ">=3.11"
+dependencies = [
+    "torch",
+    "torchvision",
+    "matplotlib",
+    "tqdm",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.7",
+]
